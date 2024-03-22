@@ -31,6 +31,12 @@ body,
 .justify-center {
   justify-content: center;
 }
+.justify-arround {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
 .items-center {
   align-items: center;
 }
@@ -165,4 +171,55 @@ body,
 
 .border-0 {
   border: 0;
+}
+
+.background {
+  height: 500px;
+  width: 85%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgb(219, 219, 219, 1)
+    ),
+    url(./mainBG.jpg) center/cover no-repeat;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.w-23p {
+  width: 23%;
+}
+
+.w-50p {
+  width: 70%;
+}
+
+.text-l {
+  font-size: large;
+}
+
+.bg-red {
+  background-color: rgb(230, 13, 52);
+}
+
+.text-red {
+  color: rgb(230, 13, 52);
+}
+
+.rounded {
+  border-radius: 6%;
+}
+
+.h-50p {
+  height: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-15p {
+  top: 15%;
 }

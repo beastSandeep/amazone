@@ -6,107 +6,139 @@
     <title>Amazone</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="bg-lightgray">
     <!-- navigation -->
-    <nav class="bg-darkgray p-8 flex gap-10">
-      <!-- logo -->
-      <div class="w-fit flex flex-col items-end">
-        <div class="flex items-end">
-          <img class="logo" src="./amz.png" alt="Amazone Logo" />
-          <span class="mb-8 font-semibold text-white">.in</span>
+    <main>
+      <nav class="bg-darkgray p-8 flex gap-10">
+        <!-- logo -->
+        <div class="w-fit flex flex-col items-end">
+          <div class="flex items-end">
+            <img class="logo" src="./amz.png" alt="Amazone Logo" />
+            <span class="mb-8 font-semibold text-white">.in</span>
+          </div>
+          <div class="text-gray font-bold -mt-12 text-m">prime</div>
         </div>
-        <div class="text-gray font-bold -mt-12 text-m">prime</div>
-      </div>
 
-      <!-- Location -->
-      <div class="text-white flex">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="-5 -2 24 24"
-          width="28"
-          fill="currentColor"
-        >
-          <path
-            d="M12 7A5 5 0 1 0 2 7c0 1.726 1.66 5.031 5 9.653 3.34-4.622 5-7.927 5-9.653zM7 20C2.333 13.91 0 9.577 0 7a7 7 0 1 1 14 0c0 2.577-2.333 6.91-7 13zm0-9a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
-          ></path>
-        </svg>
-
-        <div>
-          <div class="text-gray text-sm">Deliver to Sandeep</div>
-          <div class="font-semibold">Noida 201301</div>
-        </div>
-      </div>
-
-      <!-- actions -->
-      <div class="actions flex items-center justify-start flex-grow-1">
-        <select class="p-8 bg-lightgray text-darkgray -mr-2 px-4 py-10">
-          <option value="all">All</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-        </select>
-        <div class="flex-grow-1">
-          <input type="search" class="-mr-2" placeholder="Seach Amazone.in" />
-        </div>
-        <button
-          type="submit"
-          class="bg-lightorange text-darkgray border-0 py-3"
-        >
+        <!-- Location -->
+        <div class="text-white flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="-2.5 -2.5 24 24"
+            viewBox="-5 -2 24 24"
             width="28"
             fill="currentColor"
           >
             <path
-              d="M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12zm6.32-1.094l3.58 3.58a1 1 0 1 1-1.415 1.413l-3.58-3.58a8 8 0 1 1 1.414-1.414z"
+              d="M12 7A5 5 0 1 0 2 7c0 1.726 1.66 5.031 5 9.653 3.34-4.622 5-7.927 5-9.653zM7 20C2.333 13.91 0 9.577 0 7a7 7 0 1 1 14 0c0 2.577-2.333 6.91-7 13zm0-9a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
             ></path>
           </svg>
-        </button>
-      </div>
 
-      <!-- language -->
-      <div class="text-white flex items-center justify-center gap-2 text-m">
-        <img class="w-20" src="./india.png" alt="India" />
-        EN
-      </div>
+          <div>
+            <div class="text-gray text-sm">Deliver to Sandeep</div>
+            <div class="font-semibold">Noida 201301</div>
+          </div>
+        </div>
 
-      <!-- Account -->
-      <div class="text-white flex flex-col justify-center">
-        <div class="text-sm">Hello, Sandeep</div>
-        <div class="font-semibold -mt-4">Account and List</div>
-      </div>
+        <!-- actions -->
+        <div class="actions flex items-center justify-start flex-grow-1">
+          <select class="p-8 bg-lightgray text-darkgray -mr-2 px-4 py-10">
+            <option value="all">All</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <div class="flex-grow-1">
+            <input type="search" class="-mr-2" placeholder="Seach Amazone.in" />
+          </div>
+          <button
+            type="submit"
+            class="bg-lightorange text-darkgray border-0 py-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-2.5 -2.5 24 24"
+              width="28"
+              fill="currentColor"
+            >
+              <path
+                d="M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12zm6.32-1.094l3.58 3.58a1 1 0 1 1-1.415 1.413l-3.58-3.58a8 8 0 1 1 1.414-1.414z"
+              ></path>
+            </svg>
+          </button>
+        </div>
 
-      <!-- Return and Order -->
-      <div class="text-white flex flex-col justify-center">
-        <div class="text-sm">Returns</div>
-        <div class="font-semibold -mt-4">& Orders</div>
-      </div>
+        <!-- language -->
+        <div class="text-white flex items-center justify-center gap-2 text-m">
+          <img class="w-20" src="./india.png" alt="India" />
+          EN
+        </div>
 
-      <!-- Cart -->
-      <div class="text-white flex items-center gap-2">
-        <!-- image -->
+        <!-- Account -->
+        <div class="text-white flex flex-col justify-center">
+          <div class="text-sm">Hello, Sandeep</div>
+          <div class="font-semibold -mt-4">Account and List</div>
+        </div>
 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="-3 -4 24 24"
-          width="28"
-          fill="currentColor"
-        >
-          <path
-            d="M7 16a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM.962 1.923A.962.962 0 0 1 .962 0h1.151c.902 0 1.682.626 1.878 1.506l1.253 5.642c.196.88.976 1.506 1.878 1.506h7.512l1.442-5.77H6.731a.962.962 0 0 1 0-1.922h9.345a1.923 1.923 0 0 1 1.866 2.39L16.5 9.12a1.923 1.923 0 0 1-1.866 1.457H7.122a3.846 3.846 0 0 1-3.755-3.012L2.113 1.923H.962z"
-          ></path>
-        </svg>
+        <!-- Return and Order -->
+        <div class="text-white flex flex-col justify-center">
+          <div class="text-sm">Returns</div>
+          <div class="font-semibold -mt-4">& Orders</div>
+        </div>
 
-        <!-- text -->
-        <div>Cart</div>
-      </div>
-    </nav>
+        <!-- Cart -->
+        <div class="text-white flex items-center gap-2">
+          <!-- image -->
 
-    <!-- Sub Navigation -->
-    <section></section>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-3 -4 24 24"
+            width="28"
+            fill="currentColor"
+          >
+            <path
+              d="M7 16a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM.962 1.923A.962.962 0 0 1 .962 0h1.151c.902 0 1.682.626 1.878 1.506l1.253 5.642c.196.88.976 1.506 1.878 1.506h7.512l1.442-5.77H6.731a.962.962 0 0 1 0-1.922h9.345a1.923 1.923 0 0 1 1.866 2.39L16.5 9.12a1.923 1.923 0 0 1-1.866 1.457H7.122a3.846 3.846 0 0 1-3.755-3.012L2.113 1.923H.962z"
+            ></path>
+          </svg>
+
+          <!-- text -->
+          <div>Cart</div>
+        </div>
+      </nav>
+      <!-- Sub Navigation -->
+      <section></section>
+    </main>
+
+    <!-- Main -->
+    <main class="flex justify-center">
+      <!-- background + boxes-->
+      <section class="background flex items-end justify-evenly">
+        <!-- first Box -->
+        <div class="bg-white w-23p relative top-15p flex flex-col gap-10 p-8">
+          <h5 class="text-l font-semibold">Top Deal</h5>
+          <div class="flex justify-center">
+            <img src="./items/item1.jpg" alt="Pants" class="w-50p" />
+          </div>
+          <div>
+            <span class="bg-red text-white rounded px-4 py-3"
+              >Up to 54% off</span
+            >
+            <span class="text-red">Big Spring Deal</span>
+          </div>
+          <h6>Levi's Men's and Women's Apparel</h6>
+          <a href="#">See all deals</a>
+        </div>
+
+        <!-- second box  -->
+        <div class="bg-white h-50p w-23p">Editors</div>
+
+        <!--  third -->
+        <div class="bg-white h-50p w-23p">Find</div>
+
+        <!-- fourth -->
+        <div class="bg-white h-50p w-23p">Try</div>
+      </section>
+    </main>
   </body>
 </html>
