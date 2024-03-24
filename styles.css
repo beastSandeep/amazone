@@ -223,3 +223,54 @@ body,
 .top-15p {
   top: 15%;
 }
+.w-80p {
+  width: 80%;
+}
+.h-70p {
+  height: 69%;
+}
+/* .flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.w-90p {
+  width: 90%;
+}
+.gap-19 {
+  gap: 19px;
+}
+.liststyle-none {
+  list-style: none;
+}
+.background-color {
+  background-color: rgb(49, 49, 66);
+}
+.color {
+  color: white;
+}
+li:hover {
+  border: 2px solid white;
+  padding: 3px;
+}
+
+li {
+  border: 5px solid rgb(49, 49, 66);
+}
+.bg-white2 {
+  background-color: white;
+}
+.height-90 {
+  height: 90px;
+}
+.width-90 {
+  width: 90px;
+}
+.mb-8p {
+  margin-bottom: 8%;
+}
+.h-700 {
+  height: 700px;
+}
+.border-1 {
+  border: 1px solid red;
+}
